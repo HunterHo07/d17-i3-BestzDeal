@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import { getPath } from '../../utils/routes';
 
 // Sample categories
 const categories = [
@@ -24,7 +25,7 @@ const sellers = [
     responseTime: '15 min avg',
     completedDeals: 1243,
     verified: true,
-    image: '/d17-i3-BestzDeal/seller1.svg' // This would be a real image in a production app
+    image: getPath('/seller1.svg') // This would be a real image in a production app
   },
   {
     id: 2,
@@ -33,7 +34,7 @@ const sellers = [
     responseTime: '5 min avg',
     completedDeals: 876,
     verified: true,
-    image: '/d17-i3-BestzDeal/seller2.svg'
+    image: getPath('/seller2.svg')
   },
   {
     id: 3,
@@ -42,7 +43,7 @@ const sellers = [
     responseTime: '30 min avg',
     completedDeals: 2156,
     verified: true,
-    image: '/d17-i3-BestzDeal/seller3.svg'
+    image: getPath('/seller3.svg')
   },
   {
     id: 4,
@@ -51,7 +52,7 @@ const sellers = [
     responseTime: '45 min avg',
     completedDeals: 543,
     verified: false,
-    image: '/d17-i3-BestzDeal/seller4.svg'
+    image: getPath('/seller4.svg')
   },
   {
     id: 5,
@@ -60,7 +61,7 @@ const sellers = [
     responseTime: '20 min avg',
     completedDeals: 987,
     verified: true,
-    image: '/d17-i3-BestzDeal/seller5.svg'
+    image: getPath('/seller5.svg')
   },
 ];
 
@@ -398,7 +399,7 @@ export default function DemoPage() {
                         <div className="flex items-center mb-2 md:mb-0">
                           <div className="w-10 h-10 bg-slate-600 rounded-full mr-3 flex items-center justify-center text-xl overflow-hidden">
                             <img
-                              src={`/d17-i3-BestzDeal/seller${offer.id}.svg`}
+                              src={getPath(`/seller${offer.id}.svg`)}
                               alt={offer.seller}
                               className="w-full h-full object-cover"
                             />

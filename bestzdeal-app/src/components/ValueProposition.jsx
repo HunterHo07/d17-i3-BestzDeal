@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import { getPath } from '../utils/routes';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // Register ScrollTrigger plugin
@@ -147,7 +148,7 @@ const ValueProposition = () => {
 
         <div className="mt-16 text-center">
           <a
-            href="/d17-i3-BestzDeal/demo/"
+            href={getPath('/demo/')}
             className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full font-medium text-lg transition-colors inline-flex items-center justify-center"
           >
             Experience the Difference

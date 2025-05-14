@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
+import { getPath } from '../utils/routes';
 
 const HeroSection = () => {
   const heroRef = useRef(null);
@@ -78,7 +79,7 @@ const HeroSection = () => {
             </p>
             <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
-                href="/d17-i3-BestzDeal/demo/"
+                href={getPath('/demo/')}
                 className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full font-medium text-lg transition-colors inline-flex items-center justify-center"
               >
                 Try It Now
@@ -87,7 +88,7 @@ const HeroSection = () => {
                 </svg>
               </a>
               <a
-                href="/d17-i3-BestzDeal/why-us/"
+                href={getPath('/why-us/')}
                 className="border border-indigo-400 text-indigo-400 hover:bg-indigo-400/10 px-8 py-3 rounded-full font-medium text-lg transition-colors inline-flex items-center justify-center"
               >
                 Learn More
