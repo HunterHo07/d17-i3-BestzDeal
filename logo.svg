@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="60" viewBox="0 0 200 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background shape with gradient -->
+  <rect width="200" height="60" rx="12" fill="url(#paint0_linear)" />
+  
+  <!-- Deal tag shape -->
+  <path d="M160 15H180C185.523 15 190 19.4772 190 25V35C190 40.5228 185.523 45 180 45H160L150 30L160 15Z" fill="#FFD700" />
+  
+  <!-- Price tag hole -->
+  <circle cx="175" cy="25" r="3" fill="#FF6B6B" />
+  
+  <!-- Dollar sign on tag -->
+  <path d="M175 32V38M175 32C177.209 32 179 30.2091 179 28C179 25.7909 177.209 24 175 24C172.791 24 171 25.7909 171 28C171 30.2091 172.791 32 175 32Z" stroke="#1A1A1A" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Text "Bestz" -->
+  <path d="M30 22C30 18.6863 32.6863 16 36 16H50C53.3137 16 56 18.6863 56 22V22C56 25.3137 53.3137 28 50 28H36C32.6863 28 30 25.3137 30 22V22Z" fill="#4F46E5" />
+  <path d="M30 38C30 34.6863 32.6863 32 36 32H50C53.3137 32 56 34.6863 56 38V38C56 41.3137 53.3137 44 50 44H36C32.6863 44 30 41.3137 30 38V38Z" fill="#4F46E5" />
+  <path d="M36 28H50V32H36V28Z" fill="#4F46E5" />
+  
+  <!-- Text "Deal" -->
+  <path d="M65 22C65 18.6863 67.6863 16 71 16H85C88.3137 16 91 18.6863 91 22V22C91 25.3137 88.3137 28 85 28H71C67.6863 28 65 25.3137 65 22V22Z" fill="#FF6B6B" />
+  <path d="M65 38C65 34.6863 67.6863 32 71 32H85C88.3137 32 91 34.6863 91 38V38C91 41.3137 88.3137 44 85 44H71C67.6863 44 65 41.3137 65 38V38Z" fill="#FF6B6B" />
+  <path d="M65 28H71V32H65V28Z" fill="#FF6B6B" />
+  <path d="M85 28H91V32H85V28Z" fill="#FF6B6B" />
+  
+  <!-- Text "B" -->
+  <path d="M38 24H45C46.1046 24 47 23.1046 47 22C47 20.8954 46.1046 20 45 20H38V24Z" fill="white" />
+  <path d="M38 40H45C46.1046 40 47 39.1046 47 38C47 36.8954 46.1046 36 45 36H38V40Z" fill="white" />
+  <path d="M38 20V40" stroke="white" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Text "e" -->
+  <path d="M73 24H80C81.1046 24 82 23.1046 82 22C82 20.8954 81.1046 20 80 20H73V24Z" fill="white" />
+  <path d="M73 20V28" stroke="white" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Text "a" -->
+  <path d="M73 36V40H80C81.1046 40 82 39.1046 82 38C82 36.8954 81.1046 36 80 36H73Z" fill="white" />
+  <path d="M73 36V40" stroke="white" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Text "l" -->
+  <path d="M83 36V40" stroke="white" stroke-width="2" stroke-linecap="round" />
+  <path d="M83 36V40H83" stroke="white" stroke-width="2" stroke-linecap="round" />
+  
+  <!-- Connecting lines -->
+  <path d="M100 30H140" stroke="#FFD700" stroke-width="2" stroke-dasharray="4 2" />
+  <path d="M140 30L150 30" stroke="#FFD700" stroke-width="2" />
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="200" y2="60" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E293B" />
+      <stop offset="1" stop-color="#0F172A" />
+    </linearGradient>
+  </defs>
+</svg>

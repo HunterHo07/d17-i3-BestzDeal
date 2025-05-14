@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" rx="100" fill="#F59E0B"/>
+  
+  <!-- Electronics Store Icon -->
+  <rect x="50" y="70" width="100" height="80" rx="5" fill="#F9FAFB"/>
+  
+  <!-- Store Display -->
+  <rect x="60" y="80" width="80" height="40" rx="2" fill="#F59E0B"/>
+  <rect x="65" y="85" width="70" height="30" rx="1" fill="#F9FAFB"/>
+  
+  <!-- Electronics -->
+  <rect x="70" y="90" width="20" height="20" rx="2" fill="#F59E0B"/>
+  <rect x="95" y="90" width="15" height="20" rx="2" fill="#F59E0B"/>
+  <rect x="115" y="90" width="15" height="10" rx="2" fill="#F59E0B"/>
+  <rect x="115" y="105" width="15" height="5" rx="1" fill="#F59E0B"/>
+  
+  <!-- Store Counter -->
+  <rect x="60" y="130" width="80" height="10" rx="2" fill="#F59E0B"/>
+  
+  <!-- Store Sign -->
+  <path d="M70 50H130L140 70H60L70 50Z" fill="#F9FAFB"/>
+  <rect x="85" y="55" width="30" height="10" rx="2" fill="#F59E0B"/>
+  
+  <!-- Verified Badge -->
+  <circle cx="150" cy="50" r="15" fill="#10B981"/>
+  <path d="M145 50L148 53L155 46" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

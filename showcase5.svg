@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" rx="10" fill="#1E293B"/>
+  
+  <!-- Handbag Illustration -->
+  <path d="M160 180C160 157.909 177.909 140 200 140C222.091 140 240 157.909 240 180V220C240 231.046 231.046 240 220 240H180C168.954 240 160 231.046 160 220V180Z" fill="#EC4899"/>
+  <path d="M180 140H220C220 129.954 211.046 120 200 120C188.954 120 180 129.954 180 140Z" fill="#EC4899"/>
+  <path d="M170 180H230V190C230 195.523 225.523 200 220 200H180C174.477 200 170 195.523 170 190V180Z" fill="#F9A8D4"/>
+  <rect x="190" y="160" width="20" height="10" rx="5" fill="#F9A8D4"/>
+  
+  <!-- Designer Logo -->
+  <circle cx="200" cy="200" r="20" fill="#F9A8D4"/>
+  <path d="M190 200C190 194.477 194.477 190 200 190C205.523 190 210 194.477 210 200C210 205.523 205.523 210 200 210" stroke="#EC4899" stroke-width="3"/>
+  <path d="M195 195L205 205M205 195L195 205" stroke="#EC4899" stroke-width="3"/>
+  
+  <!-- Price Tag -->
+  <rect x="270" y="80" width="80" height="40" rx="5" fill="#4F46E5"/>
+  <path d="M280 100L290 90L340 90L330 100L280 100Z" fill="#6366F1"/>
+  <circle cx="290" cy="90" r="5" fill="#1E293B"/>
+  <path d="M310 105L315 115M310 105C312 105 314 103 314 100C314 97 312 95 310 95C308 95 306 97 306 100C306 103 308 105 310 105Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Savings Badge -->
+  <circle cx="320" y="150" r="30" fill="#10B981"/>
+  <path d="M310 150L315 155L330 140" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="180" font-family="Arial" font-size="14" fill="white" text-anchor="middle">40% OFF</text>
+  
+  <!-- Authentication Badge -->
+  <rect x="270" y="200" width="100" height="30" rx="5" fill="#8B5CF6"/>
+  <text x="320" y="220" font-family="Arial" font-size="12" fill="white" text-anchor="middle">AUTHENTICATED</text>
+</svg>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" rx="10" fill="#1E293B"/>
+  
+  <!-- House Illustration -->
+  <path d="M150 200L200 150L250 200V240H150V200Z" fill="#475569"/>
+  <rect x="180" y="210" width="40" height="30" fill="#0F172A"/>
+  <rect x="190" y="210" width="20" height="20" fill="#4F46E5"/>
+  <path d="M190 210V230H210V210H190Z" stroke="#0F172A" stroke-width="2"/>
+  <rect x="160" y="180" width="20" height="20" fill="#0F172A"/>
+  <rect x="220" y="180" width="20" height="20" fill="#0F172A"/>
+  
+  <!-- Tools -->
+  <rect x="280" y="180" width="60" height="10" rx="2" fill="#475569"/>
+  <rect x="290" y="170" width="10" height="10" rx="1" fill="#475569"/>
+  <rect x="320" y="170" width="10" height="10" rx="1" fill="#475569"/>
+  <circle cx="310" cy="210" r="20" fill="#475569"/>
+  <circle cx="310" cy="210" r="10" fill="#0F172A"/>
+  <path d="M300 200L320 220M320 200L300 220" stroke="#475569" stroke-width="2"/>
+  
+  <!-- Price Tag -->
+  <rect x="270" y="80" width="80" height="40" rx="5" fill="#4F46E5"/>
+  <path d="M280 100L290 90L340 90L330 100L280 100Z" fill="#6366F1"/>
+  <circle cx="290" cy="90" r="5" fill="#1E293B"/>
+  <path d="M310 105L315 115M310 105C312 105 314 103 314 100C314 97 312 95 310 95C308 95 306 97 306 100C306 103 308 105 310 105Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Savings Badge -->
+  <circle cx="320" y="150" r="30" fill="#10B981"/>
+  <path d="M310 150L315 155L330 140" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="180" font-family="Arial" font-size="14" fill="white" text-anchor="middle">22% OFF</text>
+</svg>
