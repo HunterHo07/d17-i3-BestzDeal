@@ -245,7 +245,7 @@ export default function PitchDeckPage() {
                   <h2 className="text-3xl md:text-4xl font-bold mb-8 text-white">{slide.title}</h2>
                   <p className="text-xl text-slate-300 max-w-2xl mx-auto mb-8">{slide.content}</p>
                   <a
-                    href="/bestzdeal/demo/"
+                    href="/d17-i3-BestzDeal/demo/"
                     className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full font-medium text-lg transition-colors inline-flex items-center justify-center"
                   >
                     Try the Demo

@@ -147,7 +147,7 @@ const ValueProposition = () => {
 
         <div className="mt-16 text-center">
           <a
-            href="/bestzdeal/demo/"
+            href="/d17-i3-BestzDeal/demo/"
             className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full font-medium text-lg transition-colors inline-flex items-center justify-center"
           >
             Experience the Difference

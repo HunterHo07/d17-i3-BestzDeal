@@ -183,7 +183,7 @@ export default function ShowcasePage() {
               {/* Image */}
               <div className="h-48 bg-slate-700 flex items-center justify-center overflow-hidden">
                 <img
-                  src={`/bestzdeal/showcase${item.id}.svg`}
+                  src={`/d17-i3-BestzDeal/showcase${item.id}.svg`}
                   alt={item.title}
                   className="w-full h-full object-cover"
                 />
@@ -224,7 +224,7 @@ export default function ShowcasePage() {
         {/* CTA */}
         <div className="text-center mt-16">
           <a
-            href="/bestzdeal/demo/"
+            href="/d17-i3-BestzDeal/demo/"
             className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-3 rounded-full font-medium text-lg transition-colors inline-flex items-center justify-center"
           >
             Create Your Request

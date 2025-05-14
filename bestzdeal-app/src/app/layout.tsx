@@ -20,8 +20,8 @@ export const metadata: Metadata = {
   description: "Shop/seller come to find you — users post what they want, shops compete to offer best deals.",
   icons: {
     icon: [
-      { url: '/bestzdeal/favicon.svg', type: 'image/svg+xml' },
-      { url: '/bestzdeal/favicon.ico', type: 'image/x-icon' },
+      { url: '/d17-i3-BestzDeal/favicon.svg', type: 'image/svg+xml' },
+      { url: '/d17-i3-BestzDeal/favicon.ico', type: 'image/x-icon' },
     ],
   },
 };
@@ -39,16 +39,16 @@ export default function RootLayout({
         <div className="flex flex-col min-h-screen">
           <header className="sticky top-0 z-50 w-full backdrop-blur-lg bg-slate-900/80 border-b border-slate-800">
             <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-              <a href="/bestzdeal/" className="flex items-center">
-                <Image src="/bestzdeal/logo.svg" alt="BestzDeal Logo" width={200} height={60} className="h-10 w-auto" />
+              <a href="/d17-i3-BestzDeal/" className="flex items-center">
+                <Image src="/d17-i3-BestzDeal/logo.svg" alt="BestzDeal Logo" width={200} height={60} className="h-10 w-auto" />
               </a>
               <div className="hidden md:flex space-x-8">
-                <a href="/bestzdeal/" className="text-white hover:text-indigo-400 transition-colors">Home</a>
-                <a href="/bestzdeal/demo/" className="text-white hover:text-indigo-400 transition-colors">Demo</a>
-                <a href="/bestzdeal/why-us/" className="text-white hover:text-indigo-400 transition-colors">Why Us</a>
-                <a href="/bestzdeal/showcase/" className="text-white hover:text-indigo-400 transition-colors">Showcase</a>
-                <a href="/bestzdeal/roadmap/" className="text-white hover:text-indigo-400 transition-colors">Roadmap</a>
-                <a href="/bestzdeal/pitch-deck/" className="text-white hover:text-indigo-400 transition-colors">Pitch Deck</a>
+                <a href="/d17-i3-BestzDeal/" className="text-white hover:text-indigo-400 transition-colors">Home</a>
+                <a href="/d17-i3-BestzDeal/demo/" className="text-white hover:text-indigo-400 transition-colors">Demo</a>
+                <a href="/d17-i3-BestzDeal/why-us/" className="text-white hover:text-indigo-400 transition-colors">Why Us</a>
+                <a href="/d17-i3-BestzDeal/showcase/" className="text-white hover:text-indigo-400 transition-colors">Showcase</a>
+                <a href="/d17-i3-BestzDeal/roadmap/" className="text-white hover:text-indigo-400 transition-colors">Roadmap</a>
+                <a href="/d17-i3-BestzDeal/pitch-deck/" className="text-white hover:text-indigo-400 transition-colors">Pitch Deck</a>
               </div>
               <div className="md:hidden">
                 <button className="text-white p-2">
@@ -58,7 +58,7 @@ export default function RootLayout({
                 </button>
               </div>
               <div className="hidden md:block">
-                <a href="/bestzdeal/demo/" className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full font-medium transition-colors">
+                <a href="/d17-i3-BestzDeal/demo/" className="bg-indigo-600 hover:bg-indigo-700 text-white px-6 py-2 rounded-full font-medium transition-colors">
                   Try Now
                 </a>
               </div>
@@ -71,7 +71,7 @@ export default function RootLayout({
             <div className="container mx-auto px-4">
               <div className="flex flex-col md:flex-row justify-between items-center">
                 <div className="mb-4 md:mb-0">
-                  <Image src="/bestzdeal/logo.svg" alt="BestzDeal Logo" width={160} height={48} className="h-8 w-auto mb-2" />
+                  <Image src="/d17-i3-BestzDeal/logo.svg" alt="BestzDeal Logo" width={160} height={48} className="h-8 w-auto mb-2" />
                   <p className="text-slate-400 text-sm">The Reverse Marketplace</p>
                 </div>
                 <div className="flex space-x-6">

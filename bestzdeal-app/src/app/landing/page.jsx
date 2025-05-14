@@ -71,7 +71,7 @@ export default function LandingPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="/bestzdeal/demo/"
+              href="/d17-i3-BestzDeal/demo/"
               className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-medium text-lg transition-colors inline-flex items-center justify-center"
             >
               Try It Now
@@ -80,7 +80,7 @@ export default function LandingPage() {
               </svg>
             </a>
             <a
-              href="/bestzdeal/why-us/"
+              href="/d17-i3-BestzDeal/why-us/"
               className="border border-indigo-400 text-indigo-400 hover:bg-indigo-400/10 px-8 py-4 rounded-full font-medium text-lg transition-colors inline-flex items-center justify-center"
             >
               Learn More
@@ -263,7 +263,7 @@ export default function LandingPage() {
             Join thousands of smart shoppers who are letting sellers compete for their business.
           </p>
           <a
-            href="/bestzdeal/demo/"
+            href="/d17-i3-BestzDeal/demo/"
             className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-medium text-lg transition-colors inline-flex items-center justify-center"
           >
             Try BestzDeal Now

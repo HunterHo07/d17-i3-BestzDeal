@@ -10,7 +10,7 @@
     "predeploy": "npm run build",
     "deploy": "touch out/.nojekyll && gh-pages -d out -t true"
   },
-  "homepage": "https://hunterho07.github.io/bestzdeal",
+  "homepage": "https://hunterho07.github.io/d17-i3-BestzDeal",
   "dependencies": {
     "framer-motion": "^12.11.3",
     "gsap": "^3.13.0",
