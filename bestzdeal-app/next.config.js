@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  basePath: '/bestzdeal',
+  output: process.env.NODE_ENV === 'production' ? 'export' : undefined,
+  basePath: process.env.NODE_ENV === 'production' ? '/d17-i3-BestzDeal' : '',
   images: {
     unoptimized: true,
   },
   trailingSlash: true,
-  distDir: 'out',
 };
 
 module.exports = nextConfig;
