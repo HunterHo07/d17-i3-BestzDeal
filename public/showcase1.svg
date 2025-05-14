@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" rx="10" fill="#1E293B"/>
+  
+  <!-- Phone Illustration -->
+  <rect x="150" y="50" width="100" height="200" rx="10" fill="#475569"/>
+  <rect x="155" y="60" width="90" height="160" rx="5" fill="#0F172A"/>
+  
+  <!-- Phone Screen Elements -->
+  <rect x="165" y="80" width="70" height="10" rx="2" fill="#4F46E5"/>
+  <rect x="165" y="100" width="70" height="10" rx="2" fill="#94A3B8"/>
+  <rect x="165" y="120" width="50" height="10" rx="2" fill="#94A3B8"/>
+  <rect x="165" y="140" width="70" height="40" rx="5" fill="#4F46E5"/>
+  <rect x="165" y="190" width="30" height="10" rx="2" fill="#94A3B8"/>
+  <rect x="205" y="190" width="30" height="10" rx="2" fill="#4F46E5"/>
+  
+  <!-- Phone Button -->
+  <circle cx="200" cy="230" r="8" fill="#475569"/>
+  
+  <!-- Price Tag -->
+  <rect x="270" y="80" width="80" height="40" rx="5" fill="#4F46E5"/>
+  <path d="M280 100L290 90L340 90L330 100L280 100Z" fill="#6366F1"/>
+  <circle cx="290" cy="90" r="5" fill="#1E293B"/>
+  <path d="M310 105L315 115M310 105C312 105 314 103 314 100C314 97 312 95 310 95C308 95 306 97 306 100C306 103 308 105 310 105Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Savings Badge -->
+  <circle cx="320" y="150" r="30" fill="#10B981"/>
+  <path d="M310 150L315 155L330 140" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="180" font-family="Arial" font-size="14" fill="white" text-anchor="middle">12% OFF</text>
+</svg>

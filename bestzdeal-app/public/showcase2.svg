@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" rx="10" fill="#1E293B"/>
+  
+  <!-- Vacuum Cleaner Illustration -->
+  <path d="M150 200C150 172.386 172.386 150 200 150C227.614 150 250 172.386 250 200V220C250 231.046 241.046 240 230 240H170C158.954 240 150 231.046 150 220V200Z" fill="#475569"/>
+  <rect x="190" y="80" width="20" height="70" rx="5" fill="#475569"/>
+  <path d="M180 150H220V160C220 165.523 215.523 170 210 170H190C184.477 170 180 165.523 180 160V150Z" fill="#475569"/>
+  <circle cx="200" cy="200" r="30" fill="#0F172A"/>
+  <circle cx="200" cy="200" r="20" fill="#4F46E5"/>
+  <path d="M190 200C190 194.477 194.477 190 200 190C205.523 190 210 194.477 210 200C210 205.523 205.523 210 200 210" stroke="#0F172A" stroke-width="2"/>
+  
+  <!-- Price Tag -->
+  <rect x="270" y="80" width="80" height="40" rx="5" fill="#4F46E5"/>
+  <path d="M280 100L290 90L340 90L330 100L280 100Z" fill="#6366F1"/>
+  <circle cx="290" cy="90" r="5" fill="#1E293B"/>
+  <path d="M310 105L315 115M310 105C312 105 314 103 314 100C314 97 312 95 310 95C308 95 306 97 306 100C306 103 308 105 310 105Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Savings Badge -->
+  <circle cx="320" y="150" r="30" fill="#10B981"/>
+  <path d="M310 150L315 155L330 140" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="180" font-family="Arial" font-size="14" fill="white" text-anchor="middle">15% OFF</text>
+  
+  <!-- Same Day Delivery -->
+  <rect x="270" y="200" width="100" height="30" rx="5" fill="#8B5CF6"/>
+  <text x="320" y="220" font-family="Arial" font-size="12" fill="white" text-anchor="middle">SAME DAY DELIVERY</text>
+</svg>

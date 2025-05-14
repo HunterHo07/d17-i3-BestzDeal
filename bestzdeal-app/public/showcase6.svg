@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" rx="10" fill="#1E293B"/>
+  
+  <!-- Camera Illustration -->
+  <rect x="170" y="150" width="60" height="40" rx="5" fill="#475569"/>
+  <rect x="180" y="140" width="40" height="10" rx="2" fill="#475569"/>
+  <circle cx="200" cy="170" r="15" fill="#0F172A"/>
+  <circle cx="200" cy="170" r="10" fill="#4F46E5"/>
+  <circle cx="200" cy="170" r="5" fill="#0F172A"/>
+  <rect x="235" y="155" width="10" height="10" rx="2" fill="#0F172A"/>
+  <rect x="155" y="155" width="10" height="10" rx="2" fill="#0F172A"/>
+  
+  <!-- Photo Frame -->
+  <rect x="270" y="150" width="80" height="60" rx="2" fill="#475569"/>
+  <rect x="275" y="155" width="70" height="50" rx="1" fill="#0F172A"/>
+  <path d="M285 175L295 165L315 185L335 165" stroke="#4F46E5" stroke-width="2"/>
+  <circle cx="315" cy="165" r="5" fill="#4F46E5"/>
+  
+  <!-- Price Tag -->
+  <rect x="270" y="80" width="80" height="40" rx="5" fill="#4F46E5"/>
+  <path d="M280 100L290 90L340 90L330 100L280 100Z" fill="#6366F1"/>
+  <circle cx="290" cy="90" r="5" fill="#1E293B"/>
+  <path d="M310 105L315 115M310 105C312 105 314 103 314 100C314 97 312 95 310 95C308 95 306 97 306 100C306 103 308 105 310 105Z" stroke="white" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Savings Badge -->
+  <circle cx="320" y="230" r="30" fill="#10B981"/>
+  <path d="M310 230L315 235L330 220" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="320" y="260" font-family="Arial" font-size="14" fill="white" text-anchor="middle">50% OFF</text>
+</svg>

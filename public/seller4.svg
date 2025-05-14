@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" rx="100" fill="#10B981"/>
+  
+  <!-- Discount Store Icon -->
+  <path d="M50 80L60 60H140L150 80V140C150 145.523 145.523 150 140 150H60C54.4772 150 50 145.523 50 140V80Z" fill="#F9FAFB"/>
+  
+  <!-- Discount Sign -->
+  <rect x="70" y="90" width="60" height="30" rx="5" fill="#10B981"/>
+  <path d="M80 100L120 110" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="80" cy="100" r="5" fill="white"/>
+  <circle cx="120" cy="110" r="5" fill="white"/>
+  
+  <!-- Store Entrance -->
+  <rect x="85" y="130" width="30" height="20" rx="2" fill="#10B981"/>
+  
+  <!-- Store Sign -->
+  <path d="M75 65H125L130 75H70L75 65Z" fill="#10B981"/>
+  <rect x="80" y="67" width="40" height="6" rx="1" fill="white"/>
+</svg>

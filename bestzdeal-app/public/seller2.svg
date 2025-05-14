@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" rx="100" fill="#EC4899"/>
+  
+  <!-- Local Shop Icon -->
+  <path d="M60 80C60 68.9543 68.9543 60 80 60H120C131.046 60 140 68.9543 140 80V140H60V80Z" fill="#F9FAFB"/>
+  <path d="M70 140V150H130V140H70Z" fill="#F9FAFB"/>
+  
+  <!-- Shop Door -->
+  <rect x="90" y="110" width="20" height="30" rx="2" fill="#EC4899"/>
+  <circle cx="105" cy="125" r="2" fill="#F9FAFB"/>
+  
+  <!-- Shop Windows -->
+  <rect x="70" y="80" width="15" height="20" rx="2" fill="#EC4899"/>
+  <rect x="115" y="80" width="15" height="20" rx="2" fill="#EC4899"/>
+  
+  <!-- Shop Sign -->
+  <path d="M80 50H120L125 60H75L80 50Z" fill="#F9FAFB"/>
+  <rect x="85" y="52" width="30" height="6" rx="1" fill="#EC4899"/>
+  
+  <!-- Verified Badge -->
+  <circle cx="150" cy="50" r="15" fill="#10B981"/>
+  <path d="M145 50L148 53L155 46" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="200" height="200" rx="100" fill="#8B5CF6"/>
+  
+  <!-- Premium Store Icon -->
+  <path d="M60 70H140V140C140 145.523 135.523 150 130 150H70C64.4772 150 60 145.523 60 140V70Z" fill="#F9FAFB"/>
+  <path d="M70 50L60 70H140L130 50H70Z" fill="#F9FAFB"/>
+  
+  <!-- Premium Display -->
+  <rect x="70" y="80" width="60" height="40" rx="5" fill="#8B5CF6"/>
+  <rect x="75" y="85" width="50" height="30" rx="3" fill="#F9FAFB"/>
+  
+  <!-- Premium Items -->
+  <circle cx="85" cy="100" r="8" fill="#8B5CF6"/>
+  <rect x="100" y="92" width="15" height="15" rx="2" fill="#8B5CF6"/>
+  
+  <!-- Store Counter -->
+  <rect x="70" y="130" width="60" height="10" rx="2" fill="#8B5CF6"/>
+  
+  <!-- Store Sign -->
+  <rect x="85" y="55" width="30" height="10" rx="2" fill="#8B5CF6"/>
+  
+  <!-- Verified Badge -->
+  <circle cx="150" cy="50" r="15" fill="#10B981"/>
+  <path d="M145 50L148 53L155 46" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
